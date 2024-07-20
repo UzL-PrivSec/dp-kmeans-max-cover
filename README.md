@@ -1,2 +1,2 @@
 # DP-KMeans-Max-Cover
-Re-Implementation of "Differentially Private K-Means Clustering via Exponential Mechanism and Max Cover"
+This repositoy contains the Re-implementation of "Differentially Private K-Means Clustering via Exponential Mechanism and Max Cover" used in the experiments of 'DPM: Clustering Sensitive Data through Separation'. In the *requirements.txt* are all required versions listed such that the code performs as expected. The file *emmc.py* contains all subfunctions to perform clustering as described in the paper.
