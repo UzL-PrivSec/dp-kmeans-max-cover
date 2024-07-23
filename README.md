@@ -8,7 +8,7 @@ Install **Python>=3.10** and download the required packages:
 pip install -r requirements.txt
 ```
 ## Usage
-DPM can be used as follows:
+EMMC can be used as follows:
 ```Python
 from emmc import EMMC
 
@@ -16,12 +16,12 @@ clusters = EMMC(
   TODO
 )
 ```
-In `demo.py` you can find a full example of how DPM can be used to cluster a data set.
+In `demo.py` you can find a full example of how EMMC can be used to cluster a data set.
 
 ## Authors
 The code is based on the pseudo-code in the [paper](https://ojs.aaai.org/index.php/AAAI/article/view/17099) 'Differentially Private K-Means Clustering via Exponential Mechanism and Max Cover'.
 
-The implementation was done by Anton Kosjakov (dev@kosjakov.de) and modified by Johannes Liebenow (j.liebenow@uni-luebeck.de).
+The implementation is a result of the master thesis of Anton Kosjakov (dev@kosjakov.de) and was modified by Johannes Liebenow (j.liebenow@uni-luebeck.de).
 
 
 
