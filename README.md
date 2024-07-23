@@ -12,8 +12,17 @@ EMMC can be used as follows:
 ```Python
 from emmc import EMMC
 
-clusters = EMMC(
-  TODO
+emmc = EMMC()
+
+# ------------- np.ndarray, shape=(k, num_dims)
+# |
+# v
+centres = emmc.cluster(
+    data=      # np.ndarray, shape=(num_points, num_dims)
+    diameter=  # float, length of the space's diagonal
+    k=         # int, number of cluster centres
+    epsilon=   # float, epsilon > 0
+    delta=     # float, delta < 1
 )
 ```
 In `demo.py` you can find a full example of how EMMC can be used to cluster a data set.
